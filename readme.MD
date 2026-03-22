@@ -21,4 +21,4 @@ This is a responsive portfolio website built using HTML and CSS.
 Hosted using GitHub Pages.
 
 ## Author
-Your Name
+Vishal V Shenoy
