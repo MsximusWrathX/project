@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +8,14 @@
   <link rel="stylesheet" href="style.css">
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
+
 <body>
   <nav>
     <div class="logo">V-CRAFT.</div>
+    <input type="checkbox" id="menu-toggle" class="menu-toggle">
+    <label for="menu-toggle" class="hamburger">
+      <i class="ph ph-list"></i>
+    </label>
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="projects.html" style="color: var(--accent-crimson);">Projects</a>
@@ -24,11 +30,14 @@
   <main>
     <section>
       <div class="shape shape-1"></div>
-      
+
       <div class="reveal">
-        <p style="text-transform: uppercase; letter-spacing: 3px; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.5rem;">My Portfolio</p>
-        <h2 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem;"><span style="color: var(--accent-crimson)">Featured</span> Projects</h2>
-        
+        <p
+          style="text-transform: uppercase; letter-spacing: 3px; font-weight: 600; color: var(--text-secondary); margin-bottom: 0.5rem;">
+          My Portfolio</p>
+        <h2 style="font-size: clamp(2.5rem, 5vw, 4rem); margin-bottom: 1.5rem;"><span
+            style="color: var(--accent-crimson)">Featured</span> Projects</h2>
+
         <div class="grid">
           <div class="card reveal delay-1">
             <h3>DC Undervoltage Protection</h3>
@@ -55,4 +64,5 @@
     </section>
   </main>
 </body>
+
 </html>
